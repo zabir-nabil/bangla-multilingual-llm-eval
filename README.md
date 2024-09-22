@@ -1,6 +1,6 @@
 # bangla-multilingual-llm-eval
 
-## Results
+## Summarization Results
 
 | Evaluation Type | Model         | Prompts          | ROUGE-L F | ROUGE-L Precision | ROUGE-L Recall | BERT Precision | BERT Recall | BERT F1 | BLEU  |
 | --------------- | ------------- | ---------------- | --------- | ----------------- | -------------- | -------------- | ----------- | -------|-------|
