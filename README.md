@@ -33,7 +33,7 @@
 | Classification  | bloom-7b1     | Three Shot       | 0.1111    | 0.0123    | 0.1111   | 0.0222   | 0.5000   | 30.7011  |
 | Classification  | bloom-7b1     | Chain of Thought | 0.1111    | 0.0123    | 0.1111   | 0.0222   | 0.5000   | 30.7011  |
 
-## Sentiment Results
+## Sentiment Analysis Results
 | Evaluation Type | Model         | Prompts          | Accuracy  | Precision | Recall   | F1 Score | AUC-ROC  | Log Loss |
 | --------------- | ------------- | ---------------- | --------- | --------- | -------- | -------- | -------- | -------- |
 | Sentiment       | GPT-3.5 Turbo | Zero Shot        | 0.3654    | 0.3462    | 0.3600   | 0.3529   | 0.3652   | 22.8739  |
