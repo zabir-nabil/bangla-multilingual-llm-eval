@@ -67,19 +67,19 @@
 | RQA Eval        | GPT-3.5 Turbo   | Zero Shot        | BEnQA Dataset (12th-physics-2.csv) | 0.2192    | 0.1195    | 0.1122  | 0.1122   | 0.6134   | 28.1422   |
 | RQA Eval        | GPT-3.5 Turbo   | Three Shot       | BEnQA Dataset (12th-physics-2.csv) | 0.2793| 0.1428| 0.1464| 0.1414   | 0.6198   | 25.9774   |
 | RQA Eval        | GPT-3.5 Turbo   | Chain of Thought | BEnQA Dataset (12th-physics-2.csv) | 0.2613    | 0.1244    | 0.1229  | 0.1226   | 0.6200   | 26.6268   |
-| RQA Eval        | GPT-4o| Zero Shot        | BEnQA Dataset (8th-Science.csv) | 0.6886| 0.5347| **0.5331**| 0.5291| 0.8421| 11.2241 |
-| RQA Eval        | GPT-4o| Three Shot       | BEnQA Dataset (8th-Science.csv) | **0.7325**| 0.5836| **0.5742**| 0.5751| **0.8613**| **9.6433**  |
-| RQA Eval        | GPT-4o| Chain of Thought | BEnQA Dataset (8th-Science.csv) | 0.6842| 0.5519| **0.5534**| 0.5495| 0.8534| 11.3822    |
-| RQA Eval        | GPT-4o| Zero Shot        | BEnQA Dataset (12th-math-1.csv) | 0.5126    | 0.3049    | 0.2949  | 0.2937   | 0.6808   | 17.5667    |
-| RQA Eval        | GPT-4o| Three Shot       | BEnQA Dataset (12th-math-1.csv) | 0.5404| 0.5416| **0.5048**| 0.5135| 0.7791| 16.5655 |
-| RQA Eval        | GPT-4o| Chain of Thought | BEnQA Dataset (12th-math-1.csv) | 0.4747    | 0.3592| 0.3586  | 0.3447   | 0.7520   | 18.9320    |
-| RQA Eval        | GPT-4o| Zero Shot        | BEnQA Dataset (12th-math-2.csv) | 0.4757    | 0.6128| **0.6165**| 0.6025| 0.8301| 18.8976    |
-| RQA Eval        | GPT-4o| Three Shot       | BEnQA Dataset (12th-math-2.csv) | 0.4783    | 0.5092    | 0.4881  | 0.4907   | 0.7942   | 18.8054    |
-| RQA Eval        | GPT-4o| Chain of Thought | BEnQA Dataset (12th-math-2.csv) | 0.4348    | 0.2804    | 0.2470  | 0.2500   | 0.6961   | 20.3725    |
-| RQA Eval        | GPT-4o| Zero Shot        | BEnQA Dataset (12th-physics-1.csv)| 0.6776| 0.6199| **0.6159**| **0.6157**| **0.8745**| 11.6193 |
-| RQA Eval        | GPT-4o| Three Shot       | BEnQA Dataset (12th-physics-1.csv)| **0.7007**| **0.7144**| **0.7110**| **0.7103**| **0.9064**| **10.7894** |
-| RQA Eval        | GPT-4o| Chain of Thought | BEnQA Dataset (12th-physics-1.csv)| 0.6711    | 0.6422| 0.6299  | 0.6332   | 0.8863| 11.8565    |
-| RQA Eval        | GPT-4o| Zero Shot        | BEnQA Dataset (12th-physics-2.csv)| 0.6847| **0.6615**| **0.6548**| **0.6556**| 0.8881| 11.3651 |
-| RQA Eval        | GPT-4o| Three Shot       | BEnQA Dataset (12th-physics-2.csv)| **0.6937**| 0.6323    | 0.6291  | 0.6283   | 0.8780   | **11.0404** |
-| RQA Eval        | GPT-4o| Chain of Thought | BEnQA Dataset (12th-physics-2.csv)| 0.6727    | **0.6570**| 0.6493  | 0.6476   | 0.8875| 11.7981    |
+| RQA Eval        | GPT-4o          | Zero Shot        | BEnQA Dataset (8th-Science.csv) | 0.6886| 0.5347| 0.5331| 0.5291| 0.8421| 11.2241 |
+| RQA Eval        | GPT-4o          | Three Shot       | BEnQA Dataset (8th-Science.csv) | **0.7325**| 0.5836| 0.5742| 0.5751| **0.8613**| **9.6433**  |
+| RQA Eval        | GPT-4o          | Chain of Thought | BEnQA Dataset (8th-Science.csv) | 0.6842| 0.5519| 0.5534| 0.5495| 0.8534| 11.3822    |
+| RQA Eval        | GPT-4o          | Zero Shot        | BEnQA Dataset (12th-math-1.csv) | 0.5126    | 0.3049    | 0.2949  | 0.2937   | 0.6808   | 17.5667    |
+| RQA Eval        | GPT-4o          | Three Shot       | BEnQA Dataset (12th-math-1.csv) | 0.5404| 0.5416| 0.5048| 0.5135| 0.7791| 16.5655 |
+| RQA Eval        | GPT-4o          | Chain of Thought | BEnQA Dataset (12th-math-1.csv) | 0.4747    | 0.3592| 0.3586  | 0.3447   | 0.7520   | 18.9320    |
+| RQA Eval        | GPT-4o          | Zero Shot        | BEnQA Dataset (12th-math-2.csv) | 0.4757    | 0.6128| **0.6165**| 0.6025| 0.8301| 18.8976    |
+| RQA Eval        | GPT-4o          | Three Shot       | BEnQA Dataset (12th-math-2.csv) | 0.4783    | 0.5092    | 0.4881  | 0.4907   | 0.7942   | 18.8054    |
+| RQA Eval        | GPT-4o          | Chain of Thought | BEnQA Dataset (12th-math-2.csv) | 0.4348    | 0.2804    | 0.2470  | 0.2500   | 0.6961   | 20.3725    |
+| RQA Eval        | GPT-4o          | Zero Shot        | BEnQA Dataset (12th-physics-1.csv)| 0.6776| 0.6199| 0.6159| 0.6157| **0.8745**| 11.6193 |
+| RQA Eval        | GPT-4o          | Three Shot       | BEnQA Dataset (12th-physics-1.csv)| **0.7007**| **0.7144**| **0.7110**| **0.7103**| **0.9064**| **10.7894** |
+| RQA Eval        | GPT-4o          | Chain of Thought | BEnQA Dataset (12th-physics-1.csv)| 0.6711    | 0.6422| 0.6299  | 0.6332   | 0.8863| 11.8565    |
+| RQA Eval        | GPT-4o          | Zero Shot        | BEnQA Dataset (12th-physics-2.csv)| 0.6847| **0.6615**| **0.6548**| **0.6556**| 0.8881| 11.3651 |
+| RQA Eval        | GPT-4o          | Three Shot       | BEnQA Dataset (12th-physics-2.csv)| **0.6937**| 0.6323    | 0.6291  | 0.6283   | 0.8780   | **11.0404** |
+| RQA Eval        | GPT-4o          | Chain of Thought | BEnQA Dataset (12th-physics-2.csv)| 0.6727    | **0.6570**| 0.6493  | **0.6476**   | 0.8875| 11.7981    |
 
