@@ -50,8 +50,8 @@
 | Sentiment       | bloom-7b1     | Chain of Thought | 0.4808    | 0.4808    | **1.0000**| 0.6494   | 0.5000   | 17.9340  |
 
 ## RQA Eval Results
-| Evaluation Type | Model          | Prompts          | Dataset                         | Accuracy  | Precision | Recall  | F1 Score | AUC-ROC  | Log Loss  |
-|-----------------|----------------|------------------|---------------------------------|-----------|-----------|---------|----------|----------|-----------|
+| Model          | Prompts          | Dataset                         | Accuracy  | Precision | Recall  | F1 Score | AUC-ROC  | Log Loss  |
+|----------------|------------------|---------------------------------|-----------|-----------|---------|----------|----------|-----------|
 | GPT-3.5 Turbo   | Zero Shot        | BEnQA Dataset (8th-Science.csv)    | 0.2149    | 0.1298    | 0.1260  | 0.1239   | 0.6114   | 28.2974   |
 | GPT-3.5 Turbo   | Three Shot       | BEnQA Dataset (8th-Science.csv)    | 0.3377| 0.2202| 0.2170| 0.2132   | 0.6717   | 23.8710   |
 | GPT-3.5 Turbo   | Chain of Thought | BEnQA Dataset (8th-Science.csv)    | 0.2982    | 0.1923    | 0.1858  | 0.1852   | 0.6529   | 25.2938   |
@@ -82,14 +82,19 @@
 | GPT-4o          | Zero Shot        | BEnQA Dataset (12th-physics-2.csv)| 0.6847| **0.6615**| **0.6548**| **0.6556**| 0.8881| 11.3651 |
 | GPT-4o          | Three Shot       | BEnQA Dataset (12th-physics-2.csv)| **0.6937**| 0.6323    | 0.6291  | 0.6283   | 0.8780   | **11.0404** |
 | GPT-4o          | Chain of Thought | BEnQA Dataset (12th-physics-2.csv)| 0.6727    | **0.6570**| 0.6493  | **0.6476**   | 0.8875| 11.7981    |
-| gemini-1.5-flash  | Three Shot       | BEnQA Dataset (8th-science.csv)  | 0.5399   | 0.3867    | 0.3771 | 0.3763   | 0.7687  | 16.5835  |
-| gemini-1.5-flash  | Chain of Thought | BEnQA Dataset (8th-science.csv)  | 0.5025   | 0.3578    | 0.3548 | 0.3524   | 0.7462  | 17.9313  |
-| gemini-1.5-flash  | Three Shot       | BEnQA Dataset (12th-math-1.csv)  | 0.5058   | 0.4393    | 0.3804 | 0.3788   | 0.7161  | 17.8110  |
-| gemini-1.5-flash  | Chain of Thought | BEnQA Dataset (12th-math-1.csv)  | 0.5263   | 0.2173    | 0.1875 | 0.1976   | 0.7648  | 17.0733  |
-| gemini-1.5-flash  | Three Shot       | BEnQA Dataset (12th-math-2.csv)  | 0.4624   | 0.4014    | 0.3433 | 0.3529   | 0.7239  | 19.3761  |
-| gemini-1.5-flash  | Chain of Thought | BEnQA Dataset (12th-math-2.csv)  | 0.4414   | 0.1947    | 0.1854 | 0.1886   | 0.7479  | 20.1355  |
+| gemini-1.5-flash  | Zero Shot        | BEnQA Dataset (8th-science.csv) | 0.5991   | 0.4198    | 0.4182 | 0.4148   | 0.7900  | 14.4492  |
+| gemini-1.5-flash  | Three Shot       | BEnQA Dataset (8th-science.csv) | 0.5399   | 0.3867    | 0.3771 | 0.3763   | 0.7687  | 16.5835  |
+| gemini-1.5-flash  | Chain of Thought | BEnQA Dataset (8th-science.csv) | 0.5025   | 0.3578    | 0.3548 | 0.3524   | 0.7462  | 17.9313  |
+| gemini-1.5-flash  | Zero Shot        | BEnQA Dataset (12th-math-1.csv) | 0.5404   | 0.3766    | 0.3398 | 0.3474   | 0.7306  | 16.5655  |
+| gemini-1.5-flash  | Three Shot       | BEnQA Dataset (12th-math-1.csv) | 0.5058   | 0.4393    | 0.3804 | 0.3788   | 0.7161  | 17.8110  |
+| gemini-1.5-flash  | Chain of Thought | BEnQA Dataset (12th-math-1.csv) | 0.5263   | 0.2173    | 0.1875 | 0.1976   | 0.7648  | 17.0733  |
+| gemini-1.5-flash  | Zero Shot        | BEnQA Dataset (12th-math-2.csv) | 0.5038   | 0.3021    | 0.2979 | 0.2962   | 0.7242  | 17.8836  |
+| gemini-1.5-flash  | Three Shot       | BEnQA Dataset (12th-math-2.csv) | 0.4624   | 0.4014    | 0.3433 | 0.3529   | 0.7239  | 19.3761  |
+| gemini-1.5-flash  | Chain of Thought | BEnQA Dataset (12th-math-2.csv) | 0.4414   | 0.1947    | 0.1854 | 0.1886   | 0.7479  | 20.1355  |
+| gemini-1.5-flash  | Zero Shot        | BEnQA Dataset (12th-physics-1.csv) | 0.6080   | 0.4749    | 0.4734 | 0.4696   | 0.8114  | 14.1301  |
 | gemini-1.5-flash  | Three Shot       | BEnQA Dataset (12th-physics-1.csv) | 0.6008   | 0.5421    | 0.5374 | 0.5343   | 0.8348  | 14.3901  |
 | gemini-1.5-flash  | Chain of Thought | BEnQA Dataset (12th-physics-1.csv) | 0.5785   | 0.3671    | 0.3595 | 0.3621   | 0.7813  | 15.1908  |
+| gemini-1.5-flash  | Zero Shot        | BEnQA Dataset (12th-physics-2.csv) | 0.5529   | 0.3937    | 0.3966 | 0.3933   | 0.7697  | 16.1162  |
 | gemini-1.5-flash  | Three Shot       | BEnQA Dataset (12th-physics-2.csv) | 0.5676   | 0.4426    | 0.4435 | 0.4400   | 0.7962  | 15.5864  |
 | gemini-1.5-flash  | Chain of Thought | BEnQA Dataset (12th-physics-2.csv) | 0.5192   | 0.3817    | 0.3820 | 0.3796   | 0.7692  | 17.3311  |
 | Aya 101    | Zero Shot       | BEnQA Dataset (8th-Science.csv)  | 0.0307   | 0.0009    | 0.0076  | 0.0012   | 0.5007  | 34.9370  |
