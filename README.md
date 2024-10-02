@@ -122,3 +122,13 @@
 | Aya 101    | Zero Shot       | BEnQA Dataset (12th-Physics-2.csv)| 0.1261  | 0.0017    | 0.0085  | 0.0028   | 0.5004  | 31.4976  |
 | Aya 101    | Three Shot      | BEnQA Dataset (12th-Physics-2.csv)| 0.1802  | 0.0597    | 0.0571  | 0.0528   | 0.5328  | 29.5493  |
 | Aya 101    | Chain of Thought| BEnQA Dataset (12th-Physics-2.csv)| 0.1682  | 0.0292    | 0.0371  | 0.0286   | 0.5208  | 29.9823  |
+| bloom-7b1         | Zero Shot        | BEnQA Dataset (8th-Science.csv) | 0.2237   | 0.1277    | 0.1427  | 0.1311   | 0.6184  | 27.9813  |
+| bloom-7b1         | Three Shot       | BEnQA Dataset (8th-Science.csv) | 0.0439   | 0.0003    | 0.0063  | 0.0005   | 0.5000  | 34.4628  |
+| bloom-7b1         | Zero Shot        | BEnQA Dataset (12th-math-1.csv) | 0.2197   | 0.0451    | 0.0863  | 0.0562   | 0.6125  | 28.1250  |
+| bloom-7b1         | Three Shot       | BEnQA Dataset (12th-math-1.csv) | 0.2348   | 0.0130    | 0.0556  | 0.0211   | 0.5000  | 27.5789  |
+| bloom-7b1         | Zero Shot        | BEnQA Dataset (12th-math-2.csv) | 0.1893   | 0.0252    | 0.0421  | 0.0287   | 0.5465  | 29.2221  |
+| bloom-7b1         | Three Shot       | BEnQA Dataset (12th-math-2.csv) | 0.1995   | 0.0071    | 0.0357  | 0.0119   | 0.5000  | 28.8534  |
+| bloom-7b1         | Zero Shot        | BEnQA Dataset (12th-physics-1.csv) | 0.1908   | 0.0936    | 0.0997  | 0.0953   | 0.5988  | 29.1669  |
+| bloom-7b1         | Three Shot       | BEnQA Dataset (12th-physics-1.csv) | 0.1678   | 0.0018    | 0.0105  | 0.0030   | 0.5000  | 29.9969  |
+| bloom-7b1         | Zero Shot        | BEnQA Dataset (12th-physics-2.csv) | 0.2012   | 0.0850    | 0.0935  | 0.0870   | 0.5831  | 28.7916  |
+| bloom-7b1         | Three Shot       | BEnQA Dataset (12th-physics-2.csv) | 0.1411   | 0.0012    | 0.0082  | 0.0020   | 0.5000  | 30.9564  |
