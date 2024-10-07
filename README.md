@@ -64,6 +64,9 @@
 | bloom-7b1     | Zero Shot        | 0.4808    | 0.4808    | **1.0000**| 0.6494   | 0.5000   | 18.7150  |
 | bloom-7b1     | Three Shot       | 0.4808    | 0.4808    | **1.0000**| 0.6494   | 0.5000   | 18.7150  |
 | bloom-7b1     | Chain of Thought | 0.4808    | 0.4808    | **1.0000**| 0.6494   | 0.5000   | 18.7150  |
+| LLaMA  | Zero Shot         | 0.7692   | 0.7532    | 0.7733 | 0.7632   | 0.7694  | 8.3178   |
+| LLaMA  | Three Shot        | 0.8526   | 0.7889    | 0.9467 | 0.8606   | 0.8560  | 5.3141   |
+| LLaMA  | Chain of Thought   | 0.7115   | 0.6316    | 0.9600 | 0.7619   | 0.7207  | 10.3972  |
 
 ## RQA Eval Results
 | Model          | Prompts          | Dataset                         | Accuracy  | Precision | Recall  | F1 Score | AUC-ROC  | Log Loss  |
@@ -138,3 +141,14 @@
 | bloom-7b1         | Three Shot       | BEnQA Dataset (12th-physics-1.csv) | 0.1678   | 0.0018    | 0.0105  | 0.0030   | 0.5000  | 29.9969  |
 | bloom-7b1         | Zero Shot        | BEnQA Dataset (12th-physics-2.csv) | 0.2012   | 0.0850    | 0.0935  | 0.0870   | 0.5831  | 28.7916  |
 | bloom-7b1         | Three Shot       | BEnQA Dataset (12th-physics-2.csv) | 0.1411   | 0.0012    | 0.0082  | 0.0020   | 0.5000  | 30.9564  |
+| LLaMA  | Zero Shot   | BEnQA Dataset (8th-Science.csv)     | 0.0965   | 0.0482    | 0.0436 | 0.0441   | 0.5478  | 32.5658  |
+| LLaMA  | Three Shot  | BEnQA Dataset (8th-Science.csv)     | 0.1930   | 0.1141    | 0.1027 | 0.1056   | 0.5986  | 29.0879  |
+| LLaMA  | Zero Shot   | BEnQA Dataset (12th-math-1.csv)    | 0.1263   | 0.0162    | 0.0097 | 0.0115   | 0.5505  | 31.4927  |
+| LLaMA  | Three Shot  | BEnQA Dataset (12th-math-1.csv)    | 0.1187   | 0.0270    | 0.0223 | 0.0236   | 0.5934  | 31.7657  |
+| LLaMA  | Zero Shot   | BEnQA Dataset (12th-math-2.csv)    | 0.1074   | 0.0206    | 0.0119 | 0.0137   | 0.5473  | 32.1720  |
+| LLaMA  | Three Shot  | BEnQA Dataset (12th-math-2.csv)    | 0.1381   | 0.0183    | 0.0127 | 0.0143   | 0.5297  | 31.0658  |
+| LLaMA  | Zero Shot   | BEnQA Dataset (12th-physics-1.csv) | 0.1513   | 0.0816    | 0.0745 | 0.0767   | 0.6028  | 30.5897  |
+| LLaMA  | Three Shot  | BEnQA Dataset (12th-physics-1.csv) | 0.1875   | 0.0702    | 0.0655 | 0.0670   | 0.5771  | 29.2855  |
+| LLaMA  | Zero Shot   | BEnQA Dataset (12th-physics-2.csv) | 0.1051   | 0.0474    | 0.0448 | 0.0449   | 0.5610  | 32.2553  |
+| LLaMA  | Three Shot  | BEnQA Dataset (12th-physics-2.csv) | 0.1652   | 0.0826    | 0.0775 | 0.0790   | 0.5892  | 30.0905  |
+
