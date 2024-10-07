@@ -38,6 +38,9 @@
 | bloom-7b1     | Zero Shot        | 0.1111    | 0.0123    | 0.1111   | 0.0222   | 0.5000   | 30.7011  |
 | bloom-7b1     | Three Shot       | 0.1111    | 0.0123    | 0.1111   | 0.0222   | 0.5000   | 30.7011  |
 | bloom-7b1     | Chain of Thought | 0.1111    | 0.0123    | 0.1111   | 0.0222   | 0.5000   | 30.7011  |
+| LLaMA  | Zero Shot   | 0.46     | 0.54      | 0.41   | 0.42     | 0.70    | 19.44    |
+| LLaMA  | Three Shot   | 0.47     | 0.57      | 0.42   | 0.44     | 0.70    | 19.22    |
+| LLaMA     | Chain of Thought     | 0.38     | 0.43      | 0.31   | 0.32     | 0.66    | 22.35    |
 
 
 ## Sentiment Analysis Results
