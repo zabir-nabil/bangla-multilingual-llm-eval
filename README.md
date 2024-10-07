@@ -19,6 +19,9 @@
 | bloom-7b1     | Zero Shot        | 0.0534       | 0.0288            | **0.4376**       | 0.6150          | **0.7384**      | 0.6707        | 0.0354       |
 | bloom-7b1     | Three Shot       | 0.0319       | 0.0166            | **0.4480**       | 0.5651          | 0.6503          | 0.6046        | 0.0203       |
 | bloom-7b1     | Chain of Thought | 0.0293       | 0.0152            | **0.4419**       | 0.5551          | 0.6386          | 0.5938        | 0.0183       |
+| LLaMA   | Zero Shot   | 0.1150    | 0.1007            | 0.1542         | 0.6954         | 0.7228      | 0.7083  | 0.2663 |
+| LLaMA   | Three Shot   | 0.1085    | 0.1113            | 0.1232         | 0.7031         | 0.7100      | 0.7059  | 0.2570 |
+| LLaMA     | Chain of Thought     | 0.0783    | 0.0655            | 0.1535         | 0.6416         | 0.6945      | 0.6659  | 0.1660 |
 
 ## Classification Results
 | Model         | Prompts          | Accuracy  | Precision | Recall   | F1 Score | AUC-ROC  | Log Loss |
