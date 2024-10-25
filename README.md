@@ -1,4 +1,4 @@
-# bangla-multilingual-llm-eval
+# Evaluation of Open and Closed-Source Multi-lingual LLMs for Low-Resource Bangla Language
 
 ### Pre-print
 
